@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # =========================
 # Dependências (Node / React)
 # =========================
@@ -73,3 +74,33 @@ Thumbs.db
 *.ntvs*
 *.njsproj
 *.sln
+=======
+# Firebase build and deployment files
+/firebase-debug.log
+/firebase-debug.*.log
+.firebaserc
+
+# Firebase Hosting
+/firebase.json
+*.cache
+hosting/.cache
+
+# Firebase Functions
+/functions/node_modules/
+/functions/.env
+/functions/package-lock.json
+
+# Firebase Emulators
+/firebase-*.zip
+/.firebase/
+/emulator-ui/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (local configs)
+/.env.*
+>>>>>>> c752a7fe1a4bd888a5971945844431813f467d7a
