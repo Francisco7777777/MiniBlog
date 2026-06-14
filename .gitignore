@@ -1,0 +1,75 @@
+# =========================
+# Dependências (Node / React)
+# =========================
+/node_modules
+/.pnp
+.pnp.js
+
+# =========================
+# Build e Produção
+# =========================
+/build
+/dist
+
+# =========================
+# Logs de Erro e Debug
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Testes
+# =========================
+/coverage
+
+# =========================
+# Variáveis de Ambiente
+# =========================
+# Mantenha o arquivo .env (se tiver apenas variáveis públicas), 
+# mas ignore os arquivos locais que contêm chaves sensíveis.
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Firebase
+# =========================
+# Ignora a pasta de cache do Firebase
+.firebase/
+
+# Ignora os logs de debug do Firebase e do Firestore
+firebase-debug.log
+firebase-debug.*.log
+firestore-debug.log
+ui-debug.log
+
+# Ignora banco de dados local dos emuladores (se houver)
+*.db
+
+# Ignora exportações de dados do emulador do Firebase (se você costuma exportar)
+/firebase-export/
+/firebase-emulators-data/
+
+# =========================
+# Arquivos do Sistema Operacional
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =========================
+# Editores e IDEs (Opcional)
+# =========================
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
